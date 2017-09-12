@@ -5,7 +5,7 @@ Mes notes de cours à l'Université Laval.
 
 Les extensions suivantes sont requises:
 
-'''
+```
 markdown+math
 markdownlint
-'''
+```
