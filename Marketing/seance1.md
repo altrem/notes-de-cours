@@ -58,8 +58,6 @@ Une perspective opérationnelle comprend:
 - Place
 - Promotion (communication et non rabais)
 
-
-
 ## Valeur perçue
 
 En marketing, la valeur perçue par le client désigne sa **perception** des bénéfices ou avantages reçus lors de l'acquisition du produit ou du service, comparativement aux coûts et sacrifices engagés pour en faire l'acquisition et aussi à ce qui est offert par des entreprises concurrentes.
@@ -102,4 +100,3 @@ D'autre part, une **communauté engagée** (BAO positif, blog, réseaux sociaux,
 ## Éthique en marketing
 
 L'éthique des affaires repose sur les valeurs de base qui guident la conduite d'une entreprise en ce qui concerne l'ensemble des décisions marketing, notamment celles qui touchent la composition des produits, l'origine des matières premières, l'approche publicitaire et la fixation des prix.
-
