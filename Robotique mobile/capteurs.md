@@ -179,3 +179,70 @@ Un tel capteur a un coût peu élevé: 15 $.
 - Absence de retour IR -> Absence d'obstacle? *Pas nécessairement (couleur noire, miroir, angle prononcé*)
 
 De plus, un capteur de proximité infrarouge est de courte portée. La distance maximale varie selon le capteur de 50 cm à 2 m.
+
+### Capteurs tactiles
+
+Détection contact mécanique avec obstacle (interrupteur électrique binaire)
+
+Pour une "voiture", on a un pare-choc sensible à la pression/force.
+
+Un capteur tactile est souvent la dernière ligne de défense.
+
+#### Pression
+
+Peau synthétique de caoutchouc résistif.
+Pression signifie changement de résistance. On détecte le changement par matrice de contact électrique (balayage 2D de résistance électrique de la surface).
+
+### Capteurs par temps de vol
+
+#### Sonar
+
+- Appelé aussi *capteur ultrasonique*
+- Même principe que les chauve-souris
+  - Il y a émission d'un son court, par exemple 1.2 ms, et qui contient une multitude de fréquences
+- Premier problème: On doit pouvoir détecter l'écho (pas toujours évident)
+
+Distance du temps de vol $d = \frac{vt}{2}$ où $v \approx 330$ m/s dans l'air.
+
+La distance mnimum est donc $165t_{chirp}$ (21 cm pour 1.2ms).
+> Note: La forme du faisceau impacte la résolution spatiale de capteur. La forme du faisceau "idéale" ressemble à celle du laser. Mais ordinairement on a un type de cône.
+
+Il y a aucun écho s'il y a **réflexion spéculaire**, car le signal est perdu. Il y a aussi une erreur due au coin de cube:
+
+- Rayon est réfléchi deux fois sur deux pans de mur en coin.
+- Le calcul de la distance est faux.
+- Un mur fantôme apparaît à 45 degrés du coin.
+
+#### Télémètre (LiDAR)
+
+Mesure du temps de vol d'une impulsion laser (1D). L'écho lumineux du laser est beaucoup plus diffus.
+
+Deux méthodes de calcul:
+
+- Par délai (horloge)
+- Par différence de phase
+
+Portée: dépend de la puissance (de $m$ à plusieurs $km$)
+Précision: de l'ordre du millimètre.
+
+Problèmes:
+
+- Détection des objets noirs
+- Verre
+- Grilles d'aération
+
+On fait un balayage 2D par miroir rotatif.
+
+Un **faisceau étroit** a une longue portée et une bonne résolution spatiale mais il y a beaucoup d'angle morts.
+
+Un **faisceau large** est plus sécuritaire (car pas d'angles morts) mais peut créer des artéfacts.
+
+On peut avoir une caméra active qui mesure la réflectance de la surface, indépendamment de l'illumination ambiante.
+
+#### Radar
+
+- Fréquence radio de 1 à 12.5 GhZ
+- Pulsé: temps de vol
+- Effet Doppler: changement de fréquence (vitesse de la cible)
+- Signal difficile à interpréter
+
