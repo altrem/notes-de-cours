@@ -120,3 +120,22 @@ Deux types de qualité:
 
 Pour atteindre l'excellence, il faut avoir les deux!
 
+Diagramme de Venn: Bon produit, rapidité, bien fait.
+
+Quadrant de la dette technique
+
+Axe des x: Irréfléchi vs. Prudent
+Axe des y: Délibéré vs Accidentel
+
+- ID: On a pas le temps de faire un bon design
+- PD: Livrer maintenant et faire face aux conséquences
+- AI: Design en couche, dafuq is that?
+- AP: On sait maintenant qu'on aurait du le faire
+
+Quelques conseils:
+
+- Pas de duct tape programming
+- Pas de "Oui, mais ça marche"
+- Savoir dire non
+- Chérissons notre code
+
