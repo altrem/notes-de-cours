@@ -53,3 +53,16 @@ voire  l’ingrédient  le  plus  important  selon  certains
 (Pine et Gilmore, 1999, p. 96) – est la surprise (Hetzel,
 2002 ; Pine et Gilmore, 1999 ; Schmitt, 1999)
 
+Clients ravis = fidèles, pendant que clients simplement satisfaits = pas nécessairement fidèles.
+
+Lien entre la satisfaction et la surprise = est-ce significatif?
+
+Résultat:
+
+> Dans le groupe expérimental, la surprise
+influence la satisfaction directement et indirectement
+via  la  joie, la non-confirmation des attentes étant
+prise en compte dans le modèle (covariée)
+
+## L’expérience au cœur de l’analyse des relations magasin-magasineur
+
