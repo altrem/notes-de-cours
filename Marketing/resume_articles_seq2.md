@@ -66,3 +66,4 @@ prise en compte dans le modèle (covariée)
 
 ## L’expérience au cœur de l’analyse des relations magasin-magasineur
 
+Besoins de plaisir et de gratification envers le point de vente prennent de l'importance.
