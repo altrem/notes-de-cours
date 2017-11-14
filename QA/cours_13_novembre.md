@@ -12,6 +12,8 @@ Modèle hexagonal: Domaine au centre, avec une couche de protection autour(*anti
 
 Entrepôt. Sauvegarde et permet de récupérer des objets du domaine directement. N'est pas un DAO, car le DAO est un pattern de DAL pendant que Repository est un pattern de domaine. Le domaine impose le contrat!
 
+Un repository n'est pas une factory. Une factory créé un nouvel objet pour la première fois, pendant que le repository ne fait qu'hydrater et déshydrater des objets du domaine.
+
 ### Assembler
 
 DTO: Data Transfer Object. Permet de faire passer des données entre les couches.
@@ -25,3 +27,10 @@ Mettre du DDD, des repositories, etc dans un domaine problème simple qui se pr�
 À l'inverse, une application avec un domaine riche va gagner fortement à utiliser de tels patterns afin d'augmenter la maintenabilité du système malgré le haut niveau de complexité du problème.
 
 **Attention**: Souvent, des applications CRUD subissent des change request qui augmente le nombre de règles d'affaires... Deviennent des applications de domaine riche, et les patterns doivent changer en conséquence (*Last responsible moment*)
+
+> La complexité commande des moyens tributaires du contexte.
+
+Il faut toujours douter et prendre en compte le contexte avant de faire des décisions architecturales.
+
+## Tests
+
